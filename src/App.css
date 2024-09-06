@@ -1,0 +1,73 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(145, 237, 237);
+}
+
+h1 {
+  text-align: center;
+}
+
+.inner-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  background-color: rgba(24, 24, 24, 0.8);
+  border-radius: 10px;
+}
+
+.inner-Container > input {
+  width: 400px;
+  height: 30px;
+  font-size: 1.25rem;
+  outline: none;
+  padding: 5px;
+}
+
+.inner-Container > button {
+  background-color: rgb(255, 105, 97);
+  color: white;
+  outline: none;
+  border-radius: 50%;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo {
+  width: 550px;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 0px 10px;
+  align-items: center;
+  margin: 8px;
+}
+
+.action-elements > button {
+  background-color: red;
+  color: white;
+  height: 30px;
+  width: 75px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 1rem;
+}
